@@ -120,11 +120,11 @@ main{
 .support{
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-  height: 300px;
+  height: 250px;
   display: flex;
   gap: 100px;
   justify-content: space-evenly;
-  padding: 86px 175px;
+  padding: 50px 175px;
   align-items: center;
 }
 .support-list{
@@ -149,18 +149,20 @@ main{
 }
 /* instagram section style */
 .insta-details{
-  padding: 24px 423px 48px;
+  padding: 13px 423px 0px;
   text-align: center;
 }
 .instragram img{
   margin: 6px;
+  margin-top: 18px;
 }
 /* deal section style */
 .deal{
   height: 449px;
   background-image: url('../Flower Asset/Rectangle 9.png');
   background-repeat: no-repeat;
-  padding: 120px 0px;
+  padding: 120px 0px 0px 0px;
+  margin-bottom: none;
 }
 .deal .deal-title{
   margin: 0px;
@@ -182,7 +184,7 @@ main{
   background: #FFF;
   margin-left: 287px;
   border: none;
-  margin-top: 0px;
+  margin-top: 40px;
   
   }
   .deal .btn-deals{
@@ -191,4 +193,31 @@ main{
     padding: 18.5px 31px;
     
   }
-
+  /* footer section style */
+  .footer-section{
+    margin-top: -120px;
+    max-height: 449px;
+    background: #111010;
+    padding: 128px 0px;
+  }
+  .footer-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+  }
+  .footer-details{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 648px;
+    
+  }
+  .footer-copywright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
