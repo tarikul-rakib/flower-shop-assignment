@@ -59,6 +59,7 @@ body{
   margin-bottom: 32px;
   margin-top: 32px;
 }
+
 /* feature style */
 section{
   margin-bottom: 128px;
@@ -159,6 +160,21 @@ main{
   margin: 6px;
   margin-top: 18px;
 }
+/* banner3 style */
+.banner3{
+  background: #fceef1;
+}
+.banner3-details{
+  font-size: 38px;
+  text-align: left;
+  line-height: normal;
+  color: rgb(24, 22, 22);
+}
+.banner3-title{
+  color: black;
+  font-size: 44px;
+}
+
 /* deal section style */
 .deal{
   height: 449px;
