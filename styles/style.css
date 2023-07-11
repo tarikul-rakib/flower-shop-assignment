@@ -1,0 +1,182 @@
+/* common shared style */
+body{
+  font-family: 'Crimson Text', serif;
+  font-family: 'Lato', sans-serif;
+}
+.text-primary{
+  color: #E55473;
+}
+.btn-primary{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #E55473;
+  border: none;
+  padding: 20px 43px;
+}
+.section-title{
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-details{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  }
+  /* Banner Style */
+.banner-title{
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.banner-image{
+  width: 635px;
+  height: 800px;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  background-color: #fceef1;
+  margin-bottom: 178px;
+}
+.banner1{
+  justify-content: space-between;
+  padding: 197px 0px 0px 240px;
+  max-height: 850px;
+}
+.banner-content{
+  max-width: 708px;
+}
+.banner-description{
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+/* feature style */
+section{
+  margin-bottom: 128px;
+}
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.feature{
+ text-align: center;
+}
+.feature-name{
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+.feature-item-container{
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+
+}
+.colored-background1{
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.flower1 img{
+  width: 310px;
+  height: 428px;
+  margin: 110px 78px 0 76px;
+}
+.colored-background2{
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.flower2 img{
+  width: 370px;
+  height: 370px;
+  margin: 117px 47px 51px 47px;
+}
+.colored-background3{
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.flower3 img{
+  width: 314px;
+  height: 471px;
+  margin: 67px 75px 0 75px;
+}
+/* support style */
+.support{
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  height: 300px;
+  display: flex;
+  gap: 100px;
+  justify-content: space-evenly;
+  padding: 86px 175px;
+  align-items: center;
+}
+.support-list{
+  text-align: center;
+  
+}
+/* banner 2 style */
+.banner2{
+  justify-content: space-between;
+  padding: 100px 429px 100px 395px;
+  max-height: 620px;
+}
+.banner2-content{
+  max-width: 594px;
+}
+.banner2-description{
+  text-align: center;
+}
+.banner2 button{
+  margin: 0px 210px;
+  margin-top: 32px;
+}
+/* instagram section style */
+.insta-details{
+  padding: 24px 423px 48px;
+  text-align: center;
+}
+.instragram img{
+  margin: 6px;
+}
+/* deal section style */
+.deal{
+  max-height: 449px;
+  background-image: url('../Flower Asset/Rectangle 9.png');
+}
+.deal input{
+  width: 700px;
+  height: 64px;
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 22px 0 22px 22px;
+  border-radius: 8px;
+  background: #FFF;
+  margin-right: 16px;
+  padding-left: 250px;
+  /* border: none; */
+  }
+  .deal .btn-deals{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 43px 51px;
+    padding-right: 250px;
+  }
+
