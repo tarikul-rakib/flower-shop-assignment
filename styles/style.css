@@ -157,26 +157,38 @@ main{
 }
 /* deal section style */
 .deal{
-  max-height: 449px;
+  height: 449px;
   background-image: url('../Flower Asset/Rectangle 9.png');
+  background-repeat: no-repeat;
+  padding: 120px 0px;
 }
+.deal .deal-title{
+  margin: 0px;
+}
+.deal .deal-details{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .deal input{
   width: 700px;
   height: 64px;
   color: rgba(39, 39, 39, 0.60);
+  margin-right: 16px;
   font-size: 16px;
   font-weight: 400;
-  padding: 22px 0 22px 22px;
+  padding-left: 22px;
   border-radius: 8px;
   background: #FFF;
-  margin-right: 16px;
-  padding-left: 250px;
-  /* border: none; */
+  margin-left: 287px;
+  border: none;
+  margin-top: 0px;
+  
   }
   .deal .btn-deals{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
-    padding: 43px 51px;
-    padding-right: 250px;
+    padding: 18.5px 31px;
+    
   }
 
